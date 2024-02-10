@@ -9,9 +9,12 @@ import {
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
@@ -19,19 +22,29 @@ const Navbar = () => {
       </div>
       <ul className="hidden md:flex">
         <li>
-          <span className="text-teal-400">0.1</span> Home
+          <Link to="home" smooth={true} duration={500}>
+            <span className="text-teal-400">0.1</span> Home
+          </Link>
         </li>
         <li>
-          <span className="text-teal-400">0.2</span> About
+          <Link to="about" smooth={true} duration={500}>
+            <span className="text-teal-400">0.2</span> About
+          </Link>
         </li>
         <li>
-          <span className="text-teal-400">0.3</span> Skills
+          <Link to="skills" smooth={true} duration={500}>
+            <span className="text-teal-400">0.3</span> Skills
+          </Link>
         </li>
         <li>
-          <span className="text-teal-400">0.4</span> Work
+          <Link to="work" smooth={true} duration={500}>
+            <span className="text-teal-400">0.4</span> Work
+          </Link>
         </li>
         <li>
-          <span className="text-teal-400">0.5</span> Contact
+          <Link to="contact" smooth={true} duration={500}>
+            <span className="text-teal-400">0.5</span> Contact
+          </Link>
         </li>
       </ul>
       <div onClick={handleClick} className="md:hidden z-10">
@@ -44,11 +57,31 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            <span className="text-teal-400">0.1</span> Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            <span className="text-teal-400">0.2</span> About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            <span className="text-teal-400">0.3</span> Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            <span className="text-teal-400">0.4</span> Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            <span className="text-teal-400">0.5</span> Contact
+          </Link>
+        </li>
       </ul>
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>

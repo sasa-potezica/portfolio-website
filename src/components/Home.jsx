@@ -42,11 +42,8 @@ const Home = () => {
               </span>
             </button>
           </Link>
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1MSVO_mglSwR0yhMIe3i2QcJlCA1_LNv9/view?usp=sharing"
-          >
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700 sm:ml-8">
+          <a target="_blank" href="/Resume.pdf">
+            <button className="text-white w-[160px] justify-center group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700 sm:ml-8">
               Resume
             </button>
           </a>

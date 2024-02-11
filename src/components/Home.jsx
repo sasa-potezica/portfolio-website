@@ -33,7 +33,7 @@ const Home = () => {
           exceptional digital experiences. Currently, I'm focused on building
           responsive full-stack web applications.
         </p>
-        <div className="flex">
+        <div className="flex flex-col sm:flex-row">
           <Link to="work" smooth={true} duration={500}>
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700">
               View Work
@@ -46,7 +46,7 @@ const Home = () => {
             target="_blank"
             href="https://drive.google.com/file/d/1MSVO_mglSwR0yhMIe3i2QcJlCA1_LNv9/view?usp=sharing"
           >
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700 ml-8">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700 sm:ml-8">
               Resume
             </button>
           </a>

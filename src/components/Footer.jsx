@@ -26,10 +26,7 @@ function Footer() {
           <FaGithub size={30} />
         </a>
       </div>
-      <p className="text-gray-300 ml-8">
-        {" "}
-        Made by Sasa Potezica &copy; {currentYear}
-      </p>
+      <p className="text-gray-300 ml-8"> Sasa Potezica &copy; {currentYear}</p>
     </footer>
   );
 }

@@ -29,9 +29,9 @@ const Home = () => {
           />
         </h2>
         <p className="text-[#8892b0] p-4 max-w-[700px]">
-          I'm a front-end developer specializing in building and designing
+          I'm a full-stack developer specializing in building and designing
           exceptional digital experiences. Currently, I'm focused on building
-          responsive full-stack web applications.
+          responsive MERN-stack web applications.
         </p>
         <div className="flex flex-col sm:flex-row">
           <Link to="work" smooth={true} duration={500}>

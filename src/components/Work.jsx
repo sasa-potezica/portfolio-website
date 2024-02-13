@@ -21,7 +21,7 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Netflix Clone App
+                Netflix
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -51,15 +51,23 @@ const Work = () => {
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                CryptoBase
               </span>
               <div className="pt-8 text-center">
-                <a target="_blank" rel="noopener noreferrer" href="/">
+                <a
+                  href="https://sp-cryptobase-exchange.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/sasa-potezica/crypto-project"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

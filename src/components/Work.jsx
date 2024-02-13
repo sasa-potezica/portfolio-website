@@ -2,6 +2,7 @@ import React from "react";
 import workImg from "../assets/projects/workImg.jpeg";
 import realEstate from "../assets/projects/realestate.jpg";
 import netflixImg from "../assets/projects/netflix.jpg";
+import cryptoImg from "../assets/projects/CryptoBase.jpg";
 
 const Work = () => {
   return (
@@ -46,7 +47,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${cryptoImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">

@@ -12,7 +12,7 @@ const Home = () => {
           Sasa Potezica
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Front End Developer
+          I'm a Full Stack Developer
         </h2>
         <h2 className="text-2xl lg:text-5xl text-gray-400 mt-4">
           I use{" "}

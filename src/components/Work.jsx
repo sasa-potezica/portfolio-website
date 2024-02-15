@@ -56,7 +56,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://sp-cryptobase-exchange.netlify.app"
+                  href="https://sp-crypto-project.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -3,6 +3,7 @@ import workImg from "../assets/projects/workImg.jpeg";
 import realEstate from "../assets/projects/realestate.jpg";
 import netflixImg from "../assets/projects/netflix.jpg";
 import cryptoImg from "../assets/projects/CryptoBase.jpg";
+import HooBank from "../assets/projects/HooBank.jpg";
 
 const Work = () => {
   return (
@@ -77,12 +78,12 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${HooBank})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                HooBank
               </span>
               <div className="pt-8 text-center">
                 <a target="_blank" rel="noopener noreferrer" href="/">

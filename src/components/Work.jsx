@@ -1,5 +1,4 @@
 import React from "react";
-import workImg from "../assets/projects/workImg.jpeg";
 import realEstate from "../assets/projects/realestate.jpg";
 import netflixImg from "../assets/projects/netflix.jpg";
 import cryptoImg from "../assets/projects/CryptoBase.jpg";

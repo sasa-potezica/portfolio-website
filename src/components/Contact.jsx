@@ -11,7 +11,7 @@ const Contact = () => {
         action="https://getform.io/f/f527abde-ca6c-4bb3-ae1c-829e33d7cd7c"
         className="flex flex-col max-w-[600px] w-full md:mt-[200px]"
       >
-        <div className="pb-8">
+        <div className="pb-2">
           <p className="text-4xl font-bold inline border-b-4 border-teal-400 text-gray-300">
             Contact
           </p>
@@ -38,7 +38,7 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-teal-700 hover:border-teal-700 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-teal-700 hover:border-teal-700 px-4 py-3 mt-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
       </form>

@@ -19,35 +19,35 @@ const Skills = () => {
           <p className="py-4">// These are the technologies I've worked with</p>
         </div>
         <div className="2-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={HTML} alt="HTML Icon" />
             <p className="my-4">HTML</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={CSS} alt="CSS Icon" />
             <p className="my-4">CSS</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={JavaScript} alt="JS Icon" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={TypeScript} alt="TS Icon" />
             <p className="my-4">TYPESCRIPT</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={ReactImg} alt="React Icon" />
             <p className="my-4">REACT</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={Node} alt="Node Icon" />
             <p className="my-4">NODE</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={Github} alt="Github Icon" />
-            <p className="my-4">GITHUB</p>
+            <p className="my-4">GIT</p>
           </div>
-          <div className="shaddow-md shadow-[#040c16] hover:scale-110 duration:500">
+          <div>
             <img className="w-20 mx-auto" src={MongoDB} alt="MongoDB Icon" />
             <p className="my-4">MONGODB</p>
           </div>

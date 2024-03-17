@@ -9,8 +9,8 @@ function Footer() {
   }, []);
 
   return (
-    <footer className="w-full h-[50px] md:h-[50px] bg-[#0a192f] flex justify-center items-center p-4">
-      <div className="flex -mt-[90px]">
+    <footer className="w-full h-[50px] bg-[#0a192f] flex justify-center items-center p-4">
+      <div className="flex -mt-[90px] sm:-mt-[100px]">
         <a
           target="_blank"
           className="flex justify-between items-center w-full text-gray-300"
@@ -26,7 +26,7 @@ function Footer() {
           <FaGithub size={30} />
         </a>
       </div>
-      <p className="text-gray-300 ml-8 -mt-[90px]">
+      <p className="text-gray-300 ml-8 -mt-[90px] sm:-mt-[100px]">
         {" "}
         Sasa Potezica &copy; {currentYear}
       </p>

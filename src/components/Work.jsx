@@ -4,7 +4,7 @@ import netflixImg from "../assets/projects/netflix.jpg";
 import cryptoImg from "../assets/projects/CryptoBase.jpg";
 import HooBank from "../assets/projects/HooBank.jpg";
 import Fitness from "../assets/projects/Fitness.jpg";
-import ecom from "../assets/projects/ecom.jpg";
+import ThreadAI from "../assets/projects/ThreadAI.jpg";
 
 const Work = () => {
   return (
@@ -161,23 +161,33 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${ecom})` }}
+            style={{ backgroundImage: `url(${ThreadAI})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div transition duration-700 ease-in-out transform hover:scale-105"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Notice!
+                ThreadAI
                 <p className="text-sm -mb-10 p-4">
-                  Still under Construction...
+                  Unlock your perfect tee with your AI-powered T-shirt design
+                  hub. Tailor-made designs at your fingertips. Unleash your
+                  creativity effortlessly.
                 </p>
               </span>
               <div className="pt-8 text-center">
-                <a target="_blank" rel="noopener noreferrer" href="/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://sp-threadai.netlify.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/sasa-potezica/ThreadAI"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

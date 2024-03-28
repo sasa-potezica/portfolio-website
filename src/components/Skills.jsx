@@ -16,40 +16,60 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-teal-400">
             Skills
           </p>
-          <p className="py-4">// These are the technologies I've worked with</p>
+          <p className="py-4">
+            // These are the technologies I've worked with
+            <br />
+            // Certifications
+          </p>
         </div>
-        <div className="2-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div>
-            <img className="w-20 mx-auto" src={HTML} alt="HTML Icon" />
-            <p className="my-4">HTML</p>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={HTML} alt="HTML Icon" />
+              <p className="my-4">HTML</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={CSS} alt="CSS Icon" />
-            <p className="my-4">CSS</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={CSS} alt="CSS Icon" />
+              <p className="my-4">CSS</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={JavaScript} alt="JS Icon" />
-            <p className="my-4">JAVASCRIPT</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={JavaScript} alt="JS Icon" />
+              <p className="my-4">JAVASCRIPT</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={TypeScript} alt="TS Icon" />
-            <p className="my-4">TYPESCRIPT</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={TypeScript} alt="TS Icon" />
+              <p className="my-4">TYPESCRIPT</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={ReactImg} alt="React Icon" />
-            <p className="my-4">REACT</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={ReactImg} alt="React Icon" />
+              <p className="my-4">REACT</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={Node} alt="Node Icon" />
-            <p className="my-4">NODE</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={Node} alt="Node Icon" />
+              <p className="my-4">NODE</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={Github} alt="Github Icon" />
-            <p className="my-4">GIT</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={Github} alt="Github Icon" />
+              <p className="my-4">GIT</p>
+            </a>
           </div>
-          <div>
-            <img className="w-20 mx-auto" src={MongoDB} alt="MongoDB Icon" />
-            <p className="my-4">MONGODB</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={MongoDB} alt="MongoDB Icon" />
+              <p className="my-4">MONGODB</p>
+            </a>
           </div>
         </div>
       </div>

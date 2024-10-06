@@ -27,52 +27,48 @@ const Skills = () => {
               <img className="w-20 mx-auto" src={HTML} alt="HTML Icon" />
               <p className="my-4">HTML</p>
             </a>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img className="w-20 mx-auto" src={CSS} alt="CSS Icon" />
-                <p className="my-4">CSS</p>
-              </a>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img className="w-20 mx-auto" src={JavaScript} alt="JS Icon" />
-                <p className="my-4">JAVASCRIPT</p>
-              </a>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img className="w-20 mx-auto" src={TypeScript} alt="TS Icon" />
-                <p className="my-4">TYPESCRIPT</p>
-              </a>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img className="w-20 mx-auto" src={ReactImg} alt="React Icon" />
-                <p className="my-4">REACT</p>
-              </a>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img className="w-20 mx-auto" src={Node} alt="Node Icon" />
-                <p className="my-4">NODE</p>
-              </a>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img className="w-20 mx-auto" src={Github} alt="Github Icon" />
-                <p className="my-4">GIT</p>
-              </a>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
-              <a target="_blank" href="/Certifications.pdf">
-                <img
-                  className="w-20 mx-auto"
-                  src={MongoDB}
-                  alt="MongoDB Icon"
-                />
-                <p className="my-4">MONGODB</p>
-              </a>
-            </div>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={CSS} alt="CSS Icon" />
+              <p className="my-4">CSS</p>
+            </a>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={JavaScript} alt="JS Icon" />
+              <p className="my-4">JAVASCRIPT</p>
+            </a>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={TypeScript} alt="TS Icon" />
+              <p className="my-4">TYPESCRIPT</p>
+            </a>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={ReactImg} alt="React Icon" />
+              <p className="my-4">REACT</p>
+            </a>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={Node} alt="Node Icon" />
+              <p className="my-4">NODE</p>
+            </a>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={Github} alt="Github Icon" />
+              <p className="my-4">GIT</p>
+            </a>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-105 duration-500">
+            <a target="_blank" href="/Certifications.pdf">
+              <img className="w-20 mx-auto" src={MongoDB} alt="MongoDB Icon" />
+              <p className="my-4">MONGODB</p>
+            </a>
           </div>
         </div>
       </div>

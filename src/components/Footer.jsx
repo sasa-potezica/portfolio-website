@@ -10,7 +10,7 @@ function Footer() {
 
   return (
     <footer className="w-full h-[50px] bg-[#0a192f] flex justify-center items-center p-4">
-      <div className="flex">
+      <div className="flex mt-2">
         <a
           rel="noreferrer"
           target="_blank"
@@ -28,7 +28,10 @@ function Footer() {
           <FaGithub size={30} />
         </a>
       </div>
-      <p className="text-gray-300 ml-8"> Sasa Potezica &copy; {currentYear}</p>
+      <p className="text-gray-300 ml-8 mt-2">
+        {" "}
+        Sasa Potezica &copy; {currentYear}
+      </p>
     </footer>
   );
 }

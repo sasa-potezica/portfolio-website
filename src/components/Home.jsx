@@ -24,7 +24,7 @@ const Home = () => {
             words={[
               "React",
               "Tailwind",
-              "TypeScript",
+              "JavaScript",
               "Node",
               "MongoDB",
               "Firebase",
@@ -36,9 +36,9 @@ const Home = () => {
           exceptional digital experiences. Currently, I'm focused on building
           responsive MERN-stack web applications.
         </p>
-        <div className="flex flex-col sm:flex-row">
+        <div className="flex items-center flex-row">
           <Link to="work" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700">
+            <button className="text-white mr-5 group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
@@ -46,7 +46,7 @@ const Home = () => {
             </button>
           </Link>
           <a target="_blank" href="/Resume.pdf">
-            <button className="text-white w-[160px] justify-center group border-2 px-6 py-3 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700 sm:ml-8">
+            <button className="text-white w-[140px] justify-center group border-2 px-6 py-2.5 my-2 flex items-center hover:bg-teal-700 hover:border-teal-700 sm:ml-8">
               Resume
             </button>
           </a>

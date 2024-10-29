@@ -104,7 +104,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-between items-center w-full text-gray-300"
-              href="mailto: sasapotezica.contact@example.com"
+              href="mailto: sasapotezica@yahoo.com"
             >
               Email <HiOutlineMail size={30} />
             </a>

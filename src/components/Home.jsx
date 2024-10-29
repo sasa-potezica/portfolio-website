@@ -15,7 +15,7 @@ const Home = () => {
           Saša Potežica
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Front End Developer
+          I'm a Software Engineer
         </h2>
         <h2 className="text-2xl lg:text-5xl text-gray-400 mt-4">
           I use{" "}
@@ -26,13 +26,14 @@ const Home = () => {
               "Tailwind",
               "JavaScript",
               "Node",
-              "MongoDB",
-              "Firebase",
+              "C#",
+              ".NET",
+              "SQL",
             ]}
           />
         </h2>
         <p className="text-[#8892b0] pt-4 pb-4 max-w-[700px]">
-          I'm a front-end developer specializing in building and designing
+          I'm a software engineer specializing in building and designing
           exceptional digital experiences. Currently, I'm focused on building
           responsive MERN-stack web applications.
         </p>

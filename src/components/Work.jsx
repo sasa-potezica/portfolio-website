@@ -37,7 +37,7 @@ const Work = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://sp-netflix-clone.web.app/"
+                  href="https://netflix-clone-dev-14ed8.web.app/"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
